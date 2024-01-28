@@ -7,6 +7,18 @@
 body {
     background-color: #d9dcd6;
 }
+/*No noeed to use class attribute for header
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}*/
 
 header {
     padding: 20px;
@@ -19,11 +31,20 @@ header {
     display: inline-block;
     font-size: 48px;
 }
-
+/* .seo is aunique class value for specific text*/
  .seo {
     color: #d9dcd6;
 }
-
+/*.header h1 .seo {
+    color: #d9dcd6;
+}*/
+/*.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}*/
  nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,7 +52,11 @@ header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* I can use direct li tag instead of below:
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}*/
 li {
     list-style-type: none;
     display: inline-block;
@@ -71,6 +96,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+/* same features can be used for all three insted of three different class attribute .search-engine-optimization, .online-reputation-management,.social-media-marketing*/
 .features {
     margin-bottom: 20px;
     padding: 50px;
@@ -123,5 +149,8 @@ footer {
 }
 footer h2 {
     font-size: 20px;
+    display: none
 }
-
+footer p{
+display: none;
+}
